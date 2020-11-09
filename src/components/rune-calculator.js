@@ -66,7 +66,7 @@ class RuneCalculator extends Component {
             potentialVal >= 0) {
                 this.updateGridItems(increment, runeClass)
                 this.setState({
-                    pointsUsed: this.state.pointsUsed + increment
+                    pointsUsed: potentialVal
                 });
         }
     }
