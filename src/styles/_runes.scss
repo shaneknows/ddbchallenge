@@ -18,8 +18,8 @@
         background-color: #313234;
 
         &.deactivated {
-            filter:grayscale(100%);
-            opacity: 60%;
+            filter:grayscale(1);
+            opacity: .6;
         }
     }
 }
@@ -35,7 +35,7 @@
     }
 
     .deactivated {
-        filter:grayscale(100%);
+        filter:grayscale(1);
         box-shadow: none;
     }
 }

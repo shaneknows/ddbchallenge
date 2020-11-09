@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ddbchallenge/static/css/main.22ecbe5a.chunk.css",
+    "main.css": "/ddbchallenge/static/css/main.21c05d8f.chunk.css",
     "main.js": "/ddbchallenge/static/js/main.7e51940c.chunk.js",
     "main.js.map": "/ddbchallenge/static/js/main.7e51940c.chunk.js.map",
     "runtime-main.js": "/ddbchallenge/static/js/runtime-main.031db777.js",
@@ -10,14 +10,14 @@
     "static/js/3.18045d63.chunk.js": "/ddbchallenge/static/js/3.18045d63.chunk.js",
     "static/js/3.18045d63.chunk.js.map": "/ddbchallenge/static/js/3.18045d63.chunk.js.map",
     "index.html": "/ddbchallenge/index.html",
-    "static/css/main.22ecbe5a.chunk.css.map": "/ddbchallenge/static/css/main.22ecbe5a.chunk.css.map",
+    "static/css/main.21c05d8f.chunk.css.map": "/ddbchallenge/static/css/main.21c05d8f.chunk.css.map",
     "static/js/2.cfd6669c.chunk.js.LICENSE.txt": "/ddbchallenge/static/js/2.cfd6669c.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/ddbchallenge/static/media/talent-icons-sprite.49f68f2a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.031db777.js",
     "static/js/2.cfd6669c.chunk.js",
-    "static/css/main.22ecbe5a.chunk.css",
+    "static/css/main.21c05d8f.chunk.css",
     "static/js/main.7e51940c.chunk.js"
   ]
 }
