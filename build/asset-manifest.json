@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1969b28f.chunk.css",
+    "main.js": "/static/js/main.a37cd0b3.chunk.js",
+    "main.js.map": "/static/js/main.a37cd0b3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35d6232b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35d6232b.js.map",
+    "static/js/2.cda3fc13.chunk.js": "/static/js/2.cda3fc13.chunk.js",
+    "static/js/2.cda3fc13.chunk.js.map": "/static/js/2.cda3fc13.chunk.js.map",
+    "static/js/3.f8de4c48.chunk.js": "/static/js/3.f8de4c48.chunk.js",
+    "static/js/3.f8de4c48.chunk.js.map": "/static/js/3.f8de4c48.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1969b28f.chunk.css.map": "/static/css/main.1969b28f.chunk.css.map",
+    "static/js/2.cda3fc13.chunk.js.LICENSE.txt": "/static/js/2.cda3fc13.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/static/media/talent-icons-sprite.49f68f2a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35d6232b.js",
+    "static/js/2.cda3fc13.chunk.js",
+    "static/css/main.1969b28f.chunk.css",
+    "static/js/main.a37cd0b3.chunk.js"
+  ]
+}

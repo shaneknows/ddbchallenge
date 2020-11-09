@@ -1,0 +1,26 @@
+// Main styles
+html {
+    background: $backgroundImage no-repeat 0 0 fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+    font-size: x-large;
+}
+
+body{
+    @include flexCenter();
+}
+
+header {
+    background: #191C1E;
+    opacity: 70%;
+    font-weight: bold;
+    padding: 10px 100px 10px 100px;
+}
+
+.content {
+    padding: 0px 10px 10px 10px;
+    @include flexCenter("row");
+}

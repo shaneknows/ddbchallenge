@@ -1,0 +1,73 @@
+// Styles related to rune grids
+.rune-grid {
+    .row {
+        @include flexCenter("row", "no-wrap");
+
+        span {
+            font-size: 12px;
+            padding-right: 20px;
+        }
+    }
+
+    .path {
+        border-style: solid;
+        border-color:#404042;
+        border-width: 2px 0px;
+        height: 10px;
+        width: 100px;
+        background-color: #313234;
+
+        &.deactivated {
+            filter:grayscale(100%);
+            opacity: 60%;
+        }
+    }
+}
+
+.rune-wrapper {
+    margin: 10px 0px 10px 0px;
+
+    .rune {
+        @include gradientBorder($runeActiveColor, #000, 5px);
+        height: 50px;
+        width: 50px;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .deactivated {
+        filter:grayscale(100%);
+        box-shadow: none;
+    }
+}
+
+.stack {
+    @include rune();
+}
+
+.utensils{
+    @include rune(-50px);
+}
+
+.cake {
+    @include rune(-100px);
+}
+
+.crown {
+    @include rune(-150px);
+}
+
+.boat{
+    @include rune(-200px);
+}
+
+.snorkle {
+    @include rune(-250px);
+}
+
+.bolt{
+    @include rune(-300px);
+}
+
+.skull{
+    @include rune(-350px);
+}

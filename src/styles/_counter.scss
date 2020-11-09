@@ -1,0 +1,13 @@
+// Styles for counter widget
+.counter-widget{
+    background-color: #000;
+    padding: 15px 15px 15px 15px;
+    border: 2px solid #101214;
+    margin-left: 10%;
+    opacity: 70%;
+    @include flexCenter();
+
+    .tag {
+        color:#395066;
+    }
+}

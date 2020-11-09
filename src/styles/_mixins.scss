@@ -1,0 +1,31 @@
+// Mixins
+@mixin flexCenter($direction: column, $flexWrap: wrap) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: $direction;
+    align-items: center;
+    flex-wrap: $flexWrap;
+}
+
+@mixin rune($bgXPos: 0px, $bgYPos: 0px) {
+    background: $runeSpriteSheet no-repeat;
+    background-color: #242424;
+    background-position: $bgXPos $bgYPos;
+    height: 50px;
+    width: 50px;
+
+    &.deactivated {
+      background-position-y: -50px !important;
+      &:hover {
+          background-position-y: 0px !important;
+      }
+    }
+}
+
+@mixin gradientBorder($leftColor,$rightColor,$borderWidth)
+{
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to bottom, #6EAEEE, #233A50);
+    box-shadow: 0px 0px 4px 3px #202427;
+}
